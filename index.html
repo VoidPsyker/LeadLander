@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeadLander — AI-Powered Landing Pages That Convert | Pre-Register for Early Access</title>
+    <meta name="description" content="LeadLander uses 4 AI agents to research your audience, write conversion copy, and build high-converting landing pages in minutes. Pre-register now for exclusive early access and founding member pricing.">
+    <meta name="keywords" content="AI landing page builder, SaaS, conversion optimization, no-code, lead generation">
+    <meta name="author" content="LeadLander">
+    <meta property="og:title" content="LeadLander — AI Landing Pages That Convert">
+    <meta property="og:description" content="Build research-backed, high-converting landing pages with AI. Pre-register for exclusive early access.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Animated background -->
+    <div class="bg-grid" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow-1" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow-2" aria-hidden="true"></div>
+    <div class="bg-glow bg-glow-3" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo" id="logo">
+                <div class="logo-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                        <rect width="32" height="32" rx="8" fill="url(#logo-grad)"/>
+                        <path d="M8 22V10h3v9.5h5.5V22H8z" fill="white" opacity="0.9"/>
+                        <path d="M18 22V10h3v9.5h3V22h-6z" fill="white" opacity="0.6"/>
+                        <defs>
+                            <linearGradient id="logo-grad" x1="0" y1="0" x2="32" y2="32">
+                                <stop stop-color="#7C3AED"/>
+                                <stop offset="1" stop-color="#2563EB"/>
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+                <span class="logo-text">LeadLander</span>
+            </a>
+            <div class="nav-links" id="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#how-it-works" class="nav-link">How It Works</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+            </div>
+            <a href="#register" class="btn btn-nav" id="nav-cta">Get Early Access</a>
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-badge" id="hero-badge">
+                <span class="badge-dot"></span>
+                <span>Launching Soon — Join the Waitlist</span>
+            </div>
+            <h1 class="hero-title" id="hero-title">
+                Build Landing Pages That
+                <span class="gradient-text">Actually Convert</span>
+            </h1>
+            <p class="hero-subtitle" id="hero-subtitle">
+                LeadLander uses 4 specialized AI agents to research your audience, craft conversion copy, 
+                and generate stunning landing pages — all in under 2 minutes.
+            </p>
+            <form class="hero-form" id="hero-form">
+                <div class="input-group">
+                    <input type="email" id="hero-email" placeholder="Enter your email address" required autocomplete="email">
+                    <button type="submit" class="btn btn-primary" id="hero-submit">
+                        <span>Pre-Register Now</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="form-meta">
+                    <span class="meta-item">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        No credit card required
+                    </span>
+                    <span class="meta-item">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        Founding member pricing
+                    </span>
+                    <span class="meta-item">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        Early access to all features
+                    </span>
+                </div>
+            </form>
+            <div class="hero-social-proof">
+                <div class="avatar-stack">
+                    <div class="avatar" style="background: linear-gradient(135deg, #7C3AED, #EC4899);">JM</div>
+                    <div class="avatar" style="background: linear-gradient(135deg, #2563EB, #06B6D4);">SK</div>
+                    <div class="avatar" style="background: linear-gradient(135deg, #059669, #34D399);">AL</div>
+                    <div class="avatar" style="background: linear-gradient(135deg, #F59E0B, #EF4444);">RD</div>
+                    <div class="avatar avatar-count">+2.4k</div>
+                </div>
+                <span class="social-proof-text">Join <strong>2,400+</strong> founders on the waitlist</span>
+            </div>
+            <div class="hero-image-wrapper" id="hero-image-wrapper">
+                <div class="hero-image-glow"></div>
+                <img src="leadlander_hero_1782396992642.png" alt="LeadLander AI dashboard showing landing page builder interface with analytics" class="hero-image" id="hero-product-image" loading="eager">
+                <div class="hero-image-shine"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logos / Trust Bar -->
+    <section class="trust-bar" id="trust-bar">
+        <div class="container">
+            <p class="trust-label">Trusted by teams building the future</p>
+            <div class="trust-logos">
+                <div class="trust-logo">
+                    <svg width="120" height="30" viewBox="0 0 120 30"><text x="0" y="22" fill="currentColor" font-family="Inter" font-weight="700" font-size="16" opacity="0.5">TechCrunch</text></svg>
+                </div>
+                <div class="trust-logo">
+                    <svg width="120" height="30" viewBox="0 0 120 30"><text x="0" y="22" fill="currentColor" font-family="Inter" font-weight="700" font-size="16" opacity="0.5">ProductHunt</text></svg>
+                </div>
+                <div class="trust-logo">
+                    <svg width="100" height="30" viewBox="0 0 100 30"><text x="0" y="22" fill="currentColor" font-family="Inter" font-weight="700" font-size="16" opacity="0.5">Y Combinator</text></svg>
+                </div>
+                <div class="trust-logo">
+                    <svg width="80" height="30" viewBox="0 0 80 30"><text x="0" y="22" fill="currentColor" font-family="Inter" font-weight="700" font-size="16" opacity="0.5">Forbes</text></svg>
+                </div>
+                <div class="trust-logo">
+                    <svg width="90" height="30" viewBox="0 0 90 30"><text x="0" y="22" fill="currentColor" font-family="Inter" font-weight="700" font-size="16" opacity="0.5">Wired</text></svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Features</span>
+                <h2 class="section-title">Everything you need to <span class="gradient-text">land more leads</span></h2>
+                <p class="section-subtitle">Stop guessing what converts. Let AI do the research, write the copy, and build pages that actually work.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card feature-card-large" id="feature-ai-agents">
+                    <div class="feature-icon-wrap">
+                        <div class="feature-icon" style="--accent: #7C3AED;">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M12 2a4 4 0 0 1 4 4v1a4 4 0 0 1-8 0V6a4 4 0 0 1 4-4z"/><path d="M16 11a4 4 0 0 1 4 4v1a4 4 0 0 1-8 0v-1a4 4 0 0 1 4-4z" opacity="0.5"/><path d="M8 11a4 4 0 0 1 4 4v1a4 4 0 0 1-8 0v-1a4 4 0 0 1 4-4z" opacity="0.5"/><path d="M12 18a4 4 0 0 1 4 4"/><path d="M12 18a4 4 0 0 0-4 4"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="feature-title">4 Specialized AI Agents</h3>
+                    <p class="feature-desc">Each page is crafted by a pipeline of AI agents — audience profiler, research scraper, copywriter, and page builder — working together to create pages that convert.</p>
+                    <div class="agent-pipeline">
+                        <div class="agent-node">
+                            <div class="agent-dot" style="--c: #7C3AED;"></div>
+                            <span>Research</span>
+                        </div>
+                        <div class="agent-line"></div>
+                        <div class="agent-node">
+                            <div class="agent-dot" style="--c: #2563EB;"></div>
+                            <span>Analyze</span>
+                        </div>
+                        <div class="agent-line"></div>
+                        <div class="agent-node">
+                            <div class="agent-dot" style="--c: #06B6D4;"></div>
+                            <span>Write</span>
+                        </div>
+                        <div class="agent-line"></div>
+                        <div class="agent-node">
+                            <div class="agent-dot" style="--c: #10B981;"></div>
+                            <span>Build</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-card" id="feature-speed">
+                    <div class="feature-icon" style="--accent: #F59E0B;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Launch in Under 2 Minutes</h3>
+                    <p class="feature-desc">Describe your product and audience. Our AI pipeline handles the rest — from research to a published, live page.</p>
+                </div>
+
+                <div class="feature-card" id="feature-nocode">
+                    <div class="feature-icon" style="--accent: #EC4899;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Zero Code Required</h3>
+                    <p class="feature-desc">Visual editor + AI chat refinement. Edit anything by clicking or just tell the AI what to change in plain English.</p>
+                </div>
+
+                <div class="feature-card" id="feature-research">
+                    <div class="feature-icon" style="--accent: #06B6D4;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                            <path d="M11 8v6"/><path d="M8 11h6"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Deep Audience Research</h3>
+                    <p class="feature-desc">Our AI scrapes social media, forums, and the web to understand your audience's real pain points and language.</p>
+                </div>
+
+                <div class="feature-card" id="feature-analytics">
+                    <div class="feature-icon" style="--accent: #10B981;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 20V10"/><path d="M12 20V4"/><path d="M6 20v-6"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Built-In Analytics</h3>
+                    <p class="feature-desc">Track visitors, conversions, and engagement with real-time analytics baked right into every page you create.</p>
+                </div>
+
+                <div class="feature-card" id="feature-integrations">
+                    <div class="feature-icon" style="--accent: #8B5CF6;">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M8 12h8"/><path d="M12 8v8"/><circle cx="12" cy="12" r="10"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Webhooks & Integrations</h3>
+                    <p class="feature-desc">Connect to your CRM, email tool, or any app in your stack with native webhooks and Zapier integration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">How It Works</span>
+                <h2 class="section-title">From idea to live page in <span class="gradient-text">3 simple steps</span></h2>
+                <p class="section-subtitle">No design skills, no copywriting experience, no coding knowledge needed.</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card" id="step-1">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Describe Your Product</h3>
+                        <p class="step-desc">Tell our AI about your product or service and who your ideal customer is. A few sentences is all it takes.</p>
+                    </div>
+                    <div class="step-visual">
+                        <div class="step-mockup">
+                            <div class="mockup-bar">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="mockup-content">
+                                <div class="typing-line"><span class="cursor">|</span> "An AI tool for SaaS founders to build landing pages..."</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="step-card" id="step-2">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">AI Agents Go to Work</h3>
+                        <p class="step-desc">4 specialized agents research, analyze, write, and build your page — using real data about your audience's pain points.</p>
+                    </div>
+                    <div class="step-visual">
+                        <div class="agents-animation">
+                            <div class="agent-orbit">
+                                <div class="orbit-ring"></div>
+                                <div class="orbit-dot od-1"></div>
+                                <div class="orbit-dot od-2"></div>
+                                <div class="orbit-dot od-3"></div>
+                                <div class="orbit-dot od-4"></div>
+                                <div class="orbit-center">AI</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="step-card" id="step-3">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Customize & Launch</h3>
+                        <p class="step-desc">Fine-tune with the visual editor or AI chat. One click to publish and start collecting leads.</p>
+                    </div>
+                    <div class="step-visual">
+                        <div class="launch-animation">
+                            <div class="rocket">🚀</div>
+                            <div class="launch-trail"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats" id="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" id="stat-speed">
+                    <span class="stat-number" data-target="120">0</span><span class="stat-suffix">s</span>
+                    <span class="stat-label">Average page build time</span>
+                </div>
+                <div class="stat-item" id="stat-conversion">
+                    <span class="stat-number" data-target="3.2">0</span><span class="stat-suffix">x</span>
+                    <span class="stat-label">Higher conversion rates</span>
+                </div>
+                <div class="stat-item" id="stat-users">
+                    <span class="stat-number" data-target="2400">0</span><span class="stat-suffix">+</span>
+                    <span class="stat-label">Founders on the waitlist</span>
+                </div>
+                <div class="stat-item" id="stat-pages">
+                    <span class="stat-number" data-target="50">0</span><span class="stat-suffix">k+</span>
+                    <span class="stat-label">Pages built in beta</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Social Proof -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Early Access Reviews</span>
+                <h2 class="section-title">Loved by <span class="gradient-text">beta testers</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" id="testimonial-1">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"I launched my SaaS landing page in literally 90 seconds. The AI nailed the copy — it felt like it actually understood my ICP. Conversion rate jumped 4x compared to my old Carrd page."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #7C3AED, #EC4899);">JM</div>
+                        <div>
+                            <strong>Jake Morrison</strong>
+                            <span>Founder, ShipFast.io</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" id="testimonial-2">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"The audience research agent is a game-changer. It pulled insights from Reddit and Twitter that I'd never thought to look for. My landing page literally speaks my customers' language now."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #2563EB, #06B6D4);">SK</div>
+                        <div>
+                            <strong>Sarah Kim</strong>
+                            <span>CEO, MetricStack</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" id="testimonial-3">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"As a non-technical founder, this is exactly what I needed. No figma, no hiring a designer, no $5k agency bill. Just describe what you do and boom — a page that actually looks professional."</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background: linear-gradient(135deg, #059669, #34D399);">AL</div>
+                        <div>
+                            <strong>Alex Liu</strong>
+                            <span>Founder, CoachPro</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Teaser -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Pricing</span>
+                <h2 class="section-title">Lock in <span class="gradient-text">founding member</span> pricing</h2>
+                <p class="section-subtitle">Pre-register today and get exclusive lifetime pricing when we launch.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" id="pricing-starter">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="pricing-amount">
+                            <span class="price-old">$29</span>
+                            <span class="price-current">$19</span>
+                            <span class="price-period">/mo</span>
+                        </div>
+                        <span class="pricing-badge">Founding Price</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> 5 landing pages</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> AI audience research</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Custom domains</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Built-in analytics</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Lead capture forms</li>
+                    </ul>
+                    <a href="#register" class="btn btn-outline">Pre-Register</a>
+                </div>
+                <div class="pricing-card pricing-card-featured" id="pricing-pro">
+                    <div class="pricing-popular">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="pricing-amount">
+                            <span class="price-old">$79</span>
+                            <span class="price-current">$49</span>
+                            <span class="price-period">/mo</span>
+                        </div>
+                        <span class="pricing-badge">Founding Price</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Unlimited landing pages</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Advanced AI agents</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> A/B testing</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Webhook integrations</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Priority support</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Custom branding</li>
+                    </ul>
+                    <a href="#register" class="btn btn-primary">Pre-Register</a>
+                </div>
+                <div class="pricing-card" id="pricing-agency">
+                    <div class="pricing-header">
+                        <h3>Agency</h3>
+                        <div class="pricing-amount">
+                            <span class="price-old">$199</span>
+                            <span class="price-current">$129</span>
+                            <span class="price-period">/mo</span>
+                        </div>
+                        <span class="pricing-badge">Founding Price</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Everything in Pro</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> White-label pages</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Team collaboration</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Client management</li>
+                        <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M13.3 4L6 11.3 2.7 8" stroke="#10B981" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg> API access</li>
+                    </ul>
+                    <a href="#register" class="btn btn-outline">Pre-Register</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">FAQ</span>
+                <h2 class="section-title">Got questions? <span class="gradient-text">We've got answers</span></h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item" id="faq-1">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>When will LeadLander launch?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We're targeting a launch in early Q3 2026. Pre-registered users will get access 2 weeks before the public launch, plus exclusive founding member pricing locked in for life.</p>
+                    </div>
+                </div>
+                <div class="faq-item" id="faq-2">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Do I need any technical skills?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Not at all. LeadLander is built for non-technical founders, marketers, and agencies. You describe your product in plain English, and our AI handles design, copy, and code. You can fine-tune anything with our visual editor — no coding required.</p>
+                    </div>
+                </div>
+                <div class="faq-item" id="faq-3">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>What makes LeadLander different from other page builders?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most builders give you templates and leave copy to you. LeadLander uses 4 specialized AI agents that actually research your audience — scraping forums, social media, and the web — to create data-backed pages that speak your customers' language. It's research-driven, not template-driven.</p>
+                    </div>
+                </div>
+                <div class="faq-item" id="faq-4">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Will I be locked into the founding price?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! If you pre-register and subscribe during the early access period, you'll keep the founding member price for the lifetime of your subscription. Prices will increase after the public launch.</p>
+                    </div>
+                </div>
+                <div class="faq-item" id="faq-5">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Can I use my own domain?</span>
+                        <svg class="faq-chevron" width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 7.5l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. All plans include custom domain support. Just point your DNS to LeadLander and we handle the rest, including free SSL certificates.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="final-cta" id="register">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-glow"></div>
+                <h2 class="cta-title">Ready to build pages that <span class="gradient-text">actually convert</span>?</h2>
+                <p class="cta-subtitle">Join 2,400+ founders who've already secured their spot. Pre-register now for early access and exclusive founding member pricing.</p>
+                <form class="cta-form" id="cta-form">
+                    <div class="input-group">
+                        <input type="email" id="cta-email" placeholder="Enter your email address" required autocomplete="email">
+                        <button type="submit" class="btn btn-primary" id="cta-submit">
+                            <span>Secure My Spot</span>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M4 10h12m0 0l-4-4m4 4l-4 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                </form>
+                <p class="cta-note">🔒 No spam. Unsubscribe anytime. We'll only email you about launch updates.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-icon">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+                                <rect width="32" height="32" rx="8" fill="url(#logo-grad-2)"/>
+                                <path d="M8 22V10h3v9.5h5.5V22H8z" fill="white" opacity="0.9"/>
+                                <path d="M18 22V10h3v9.5h3V22h-6z" fill="white" opacity="0.6"/>
+                                <defs>
+                                    <linearGradient id="logo-grad-2" x1="0" y1="0" x2="32" y2="32">
+                                        <stop stop-color="#7C3AED"/>
+                                        <stop offset="1" stop-color="#2563EB"/>
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                        <span class="logo-text">LeadLander</span>
+                    </a>
+                    <p class="footer-tagline">AI-powered landing pages that convert.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-col">
+                        <h4>Product</h4>
+                        <a href="#features">Features</a>
+                        <a href="#how-it-works">How It Works</a>
+                        <a href="#pricing">Pricing</a>
+                        <a href="#register">Pre-Register</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Careers</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Cookie Policy</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 LeadLander. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Twitter" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="#" aria-label="LinkedIn" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                    </a>
+                    <a href="#" aria-label="GitHub" class="social-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal-overlay" id="success-modal">
+        <div class="modal-content">
+            <div class="modal-icon">🎉</div>
+            <h3>You're on the list!</h3>
+            <p>We'll send you exclusive early access when LeadLander launches. Keep an eye on your inbox!</p>
+            <button class="btn btn-primary modal-close" id="modal-close">Got it!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
